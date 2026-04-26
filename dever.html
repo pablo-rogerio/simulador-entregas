@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulador de Entregas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1> Simulador de Entregas</h1>
+
+<div class="botoes">
+    <button onclick="adicionarPacote()">Adicionar Pacote</button>
+    <button onclick="entregarPacote()">Entregar</button>
+</div>
+
+<p id="contador">Pacotes na fila: 0</p>
+<p id="atual">Nenhuma entrega em andamento</p>
+
+<h2> Fila</h2>
+<ul id="fila"></ul>
+
+<h2> Histórico</h2>
+<ul id="historico"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
